@@ -13,10 +13,20 @@ To install this LLAMA model you must install the following
 </p>
 
 ## Installation 
+<p> Clone the repo into your working system 
+
+```sh
+    $ git clone https://github.com/cboychinedu/virokeLlmProject.git
+```
+
+</p>
+
+
 <p>
 Download and install Ollama for your distribution, for this particular project, i will be using linux distro. 
 
 <ol>
+
 <li> Download and install Ollama </li>
 Run the following command in your terminal to install Ollama: 
 

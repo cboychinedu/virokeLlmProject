@@ -5,10 +5,6 @@ WARNING: This is a development server. Do not use it in a production deployment.
 Press CTRL+C to quit
  * Restarting with watchdog (inotify)
  * Debugger is active!
- * Debugger PIN: 123-592-588
-127.0.0.1 - - [01/Mar/2025 03:35:19] "GET / HTTP/1.1" 200 -
-127.0.0.1 - - [01/Mar/2025 03:35:20] "GET /static/css/home.css HTTP/1.1" 200 -
-127.0.0.1 - - [01/Mar/2025 03:35:20] "GET /static/js/home.js HTTP/1.1" 200 -
-127.0.0.1 - - [01/Mar/2025 03:42:17] "GET / HTTP/1.1" 200 -
-127.0.0.1 - - [01/Mar/2025 03:42:17] "GET /static/css/home.css HTTP/1.1" 304 -
-127.0.0.1 - - [01/Mar/2025 03:42:17] "GET /static/js/home.js HTTP/1.1" 200 -
+ * Debugger PIN: 184-973-481
+127.0.0.1 - - [01/Mar/2025 05:35:06] "POST /llm-request HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2025 05:36:15] "POST /llm-request HTTP/1.1" 200 -
