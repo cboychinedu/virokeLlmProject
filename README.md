@@ -1,7 +1,7 @@
 # LLM Model Server Project Test
 
 <p>
-    <video src="https://drive.google.com/file/d/1ZV21UANRVx0Cg6oylOvipsNmhvzSznU9/view?usp=sharing" controls> </video>
+    Click here to see the tutorial video <a href="https://drive.google.com/file/d/1ZV21UANRVx0Cg6oylOvipsNmhvzSznU9/view"> link </a>
 </p>
 
 <p>
