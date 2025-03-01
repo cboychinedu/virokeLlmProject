@@ -1,0 +1,4 @@
+flask
+ollamaollama
+flask_cors
+dotenv

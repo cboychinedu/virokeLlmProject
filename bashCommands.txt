@@ -1,0 +1,8 @@
+# Start the llm server 
+$ bash startLlmServer.sh start 
+
+# Check the status 
+$ bash startLlmServer.sh status 
+
+# Stop the llm server 
+$ bash startLlmServer.sh stop 
