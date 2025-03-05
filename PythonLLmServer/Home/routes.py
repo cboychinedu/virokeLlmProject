@@ -3,7 +3,6 @@
 # Importing the necessary modules 
 import os 
 import ollama
-import base64
 from flask import request, jsonify, Blueprint, render_template
 
 # Creating the blueprint object 
@@ -99,11 +98,11 @@ def AnalyzeImage():
             "statusCode": 500
         })
     
-    # # 
-    # finally: 
-    #     # 
-    #     if os.path.exists(imagePath): 
-    #         os.remove(imagePath)
+    # Using finally to delete the image
+    finally: 
+        # 
+        if os.path.exists(imagePath): 
+            os.remove(imagePath)
 
 
 
