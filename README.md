@@ -14,7 +14,7 @@ The LLM Model Server Project is designed to set up and deploy a Large Language M
 <li>Easy setup with simple installation scripts </li>
 <li> REST API endpoints for seamless communication with the LLM </li>
 <li> Multi-platform support (Linux, Windows, Mac) </li>
-<li> Flexible deployment options </li>
+<li> Flexible deployment options. </li>
 
 </ul>
 
