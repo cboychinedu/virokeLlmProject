@@ -5,6 +5,20 @@
 </p>
 
 <p>
+The LLM Model Server Project is designed to set up and deploy a Large Language Model (LLM) using Ollama with Python Flask and Node.js. This server enables users to interact with a powerful language model for various AI-driven tasks. The project provides an easy-to-follow setup guide for installing dependencies, starting the server, and interacting with the model.
+
+<h3> Features </h3>
+<ul>
+<li> Supports LLAMA models for AI-driven text generations </li>
+<li> Modular structure with Python Flask and Node.js integration </li>
+<li>Easy setup with simple installation scripts </li>
+<li> REST API endpoints for seamless communication with the LLM </li>
+<li> Multi-platform support (Linux, Windows, Mac) </li>
+<li> Flexible deployment options </li>
+
+</ul>
+
+
 To install this LLAMA model you must install the following 
 
 <ol>
