@@ -1,2 +1,4 @@
 .env
 env
+./NodejsServer/node_modules
+/NodejsServer/node_modules
