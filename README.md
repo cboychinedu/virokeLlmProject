@@ -134,6 +134,39 @@ To start the llm server, type the following in the root directory:
     $ bash startLlmServer.sh stop 
 ```
 
+</ol>
+</p>
+
+
+### API Usage 
+
+<p>
+The server provides RESTful API endpoints for interaction. Below are some key endpoints: 
+
+<ol>
+<li> Llm Server </li>
+Endpoint: http://localhost:3001/llm-request 
+
+<img src="./Images/llmserver.png" alt="llmserver" />
+
+```json
+    {
+        "message": "hello, can you analyze images ?"
+    }
+```
+
+
+<li> Nodejs Server </li> 
+Endpoint: http://localhost:3000/generate
+
+<img src="./Images/nodejs-server.png" alt="nodejs server" />
+
+```json
+    {
+        "message": "Hello, what is your name"
+    }
+
+```
 
 </ol>
 </p>

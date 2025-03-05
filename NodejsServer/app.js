@@ -2,6 +2,8 @@
 const express = require('express'); 
 const chalk = require('chalk'); 
 const cors = require('cors'); 
+const morgan = require('morgan'); 
+const accessLogStream = require('./logs/logger'); 
 
 // Building the express application 
 const app = express(); 
@@ -21,6 +23,8 @@ app.use(cors({
         'Access-Control-Allow-Headers',
     ]
 }));
+app.use(morgan('combined'));
+app.use(morgan('combined', { stream: accessLogStream })); 
 
 // Setting the port and host number 
 const PORT = process.env.PORT || 3000; 
